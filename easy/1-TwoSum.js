@@ -13,4 +13,5 @@ var twoSum = function (nums, target) {
         }
         prevMap[nums[el]] = el
     }
+    return []
 }
